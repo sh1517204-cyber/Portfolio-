@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafqat Hussain | Data Scientist & AI Developer</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Shafqat Hussain - Data Scientist & AI Developer specializing in Machine Learning, Generative AI, LangChain, RAG Systems, and Financial Mathematics.">
+    <meta name="keywords" content="Data Scientist, AI Developer, Machine Learning, LangChain, RAG, Python, Financial Mathematics, Portfolio">
+    <meta property="og:title" content="Shafqat Hussain | Portfolio">
+    <meta property="og:description" content="Data Scientist and AI Developer with a background in Financial Mathematics.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Background Particles Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">SHAFQAT<span>.AI</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I am <span class="highlight">Shafqat Hussain</span></h1>
+            <div class="typing-container fade-in">
+                <span class="static-txt">I am a </span>
+                <span class="dynamic-txt" id="typing-text"></span>
+            </div>
+            <p class="hero-desc fade-in">Building intelligent applications that bridge the gap between financial models and state-of-the-art AI systems.</p>
+            <div class="hero-btns fade-in">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                <a href="#" class="btn btn-accent" download><i class="fa-solid fa-download"></i> Resume</a>
+            </div>
+        </div>
+        <div class="hero-avatar fade-in">
+            <div class="avatar-glow"></div>
+            <div class="avatar-frame">
+                <!-- Placeholder Icon/Avatar -->
+                <i class="fa-solid fa-user-gear"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3 class="stat-number">8+</h3>
+                <p class="stat-label">Projects Built</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">10+</h3>
+                <p class="stat-label">Core Technologies</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number">AI & ML</h3>
+                <p class="stat-label">Specialization Focus</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section scroll-reveal">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-text glass-card">
+                <p>"I am a Data Scientist and AI Developer with a background in Financial Mathematics. I specialize in Machine Learning, Generative AI, LangChain Applications, RAG Systems, NLP, Computer Vision, and Data-Driven Solutions. I enjoy building intelligent applications that solve real-world problems through AI and modern technologies."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-reveal">
+        <h2 class="section-title">Technical <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card glass-card"><i class="fa-brands fa-python"></i> <h3>Python</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-brain"></i> <h3>Machine Learning</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-gears"></i> <h3>Scikit-Learn</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-link"></i> <h3>LangChain</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-bolt"></i> <h3>Groq API</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-window-restore"></i> <h3>Streamlit</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-database"></i> <h3>Vector Databases</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-network-wired"></i> <h3>FAISS</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-box-archive"></i> <h3>ChromaDB</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-file-shield"></i> <h3>RAG Systems</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-eye"></i> <h3>Computer Vision</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-language"></i> <h3>NLP</h3></div>
+            <div class="skill-card glass-card"><i class="fa-brands fa-github"></i> <h3>Git & GitHub</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-chart-simple"></i> <h3>Data Analysis</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-calculator"></i> <h3>Financial Mathematics</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-terminal"></i> <h3>Prompt Engineering</h3></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-reveal">
+        <h2 class="section-title">My <span>Portfolio</span></h2>
+        
+        <!-- Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="ai-gen">Generative AI/RAG</button>
+            <button class="filter-btn" data-filter="ml-fin">ML & Finance</button>
+            <button class="filter-btn" data-filter="cv-nlp">CV & NLP</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card" data-category="ai-gen">
+                <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                <h3>AI Content Generator</h3>
+                <p>Built using Groq API and LangChain to automate high-quality content generation with fast inference and user-friendly workflows.</p>
+                <div class="tech-tags">
+                    <span>Groq API</span><span>LangChain</span><span>Python</span><span>Streamlit</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card" data-category="ai-gen">
+                <div class="project-icon"><i class="fa-solid fa-file-pdf"></i></div>
+                <h3>RAG-Based PDF Chatbot</h3>
+                <p>An intelligent chatbot capable of dynamically processing PDF documents using vector databases and Retrieval-Augmented Generation techniques.</p>
+                <div class="tech-tags">
+                    <span>LangChain</span><span>PyPDF</span><span>ChromaDB</span><span>FAISS</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card" data-category="ml-fin">
+                <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>Stock Exchange Prediction App</h3>
+                <p>A machine learning application designed to forecast stock market trends and assist in financial decision-making.</p>
+                <div class="tech-tags">
+                    <span>Python</span><span>ML</span><span>Financial Modeling</span>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card glass-card" data-category="cv-nlp">
+                <div class="project-icon"><i class="fa-solid fa-language"></i></div>
+                <h3>English to Urdu Translation Tool</h3>
+                <p>A high-accuracy NLP-based translation system supporting multilingual communication and content localization.</p>
+                <div class="tech-tags">
+                    <span>NLP</span><span>Python</span><span>Language Models</span>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card glass-card" data-category="ml-fin">
+                <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <h3>Physiological Data Prediction</h3>
+                <p>Developed predictive models using Random Forest and hyperparameter optimization techniques to improve prediction accuracy.</p>
+                <div class="tech-tags">
+                    <span>Scikit-Learn</span><span>Random Forest</span><span>ML</span>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card glass-card" data-category="ml-fin">
+                <div class="project-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                <h3>GBM-Based Comparative Study</h3>
+                <p>Applied Geometric Brownian Motion techniques to analyze and compare stock price behavior and financial market dynamics.</p>
+                <div class="tech-tags">
+                    <span>Python</span><span>Financial Math</span><span>Data Analysis</span>
+                </div>
+            </div>
+
+            <!-- Project 7 -->
+            <div class="project-card glass-card" data-category="ml-fin">
+                <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Digital Banking Fraud Detection</h3>
+                <p>Designed intelligent fraud detection models for identifying suspicious transaction patterns and reducing financial risk.</p>
+                <div class="tech-tags">
+                    <span>Machine Learning</span><span>Python</span><span>Data Analytics</span>
+                </div>
+            </div>
+
+            <!-- Project 8 -->
+            <div class="project-card glass-card" data-category="cv-nlp">
+                <div class="project-icon"><i class="fa-solid fa-camera"></i></div>
+                <h3>Object Detection App</h3>
+                <p>Built a computer vision application capable of detecting and tracking objects using OpenCV techniques.</p>
+                <div class="tech-tags">
+                    <span>OpenCV</span><span>Computer Vision</span><span>Python</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section scroll-reveal">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="timeline">
+            <div class="timeline-item glass-card">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Graduated</div>
+                <h3>BS Financial Mathematics</h3>
+                <p>A comprehensive degree blending advanced mathematics, statistical modeling, algorithmic structure, and quantitative financial evaluation strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-reveal">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <h3>Contact Info</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>sh1517204@gmail.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shafqat-hussain-1a18b934b" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form glass-card" onsubmit="event.preventDefault(); alert('Message feature placeholder!');">
+                <h3>Send Message</h3>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Shafqat Hussain. All Rights Reserved. Powered by AI architecture.</p>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+  </html>
+  
