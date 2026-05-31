@@ -66,12 +66,9 @@
         </div>
         <div class="hero-avatar fade-in">
             <div class="avatar-glow"></div>
-            <div class="avatar-frame"
-                
-                <!-- Space handled using %20 for your file "shafqat_dp.jpg" -->
-            <img src="https://raw.githubusercontent.com/4-cyber/4-cyber.github.io/main/Portfolio-/shafqat_dp%20jpg.png" alt="Shafqat Hussain" style="width: 100%; height: 100%; object-fit: cover;">
-                
-                
+            <div class="avatar-frame">
+                <!-- Fixed URL syntax & syntax closure to prevent image breaking -->
+                <img src="https://raw.githubusercontent.com/4-cyber/4-cyber.github.io/main/Portfolio-/shafqat_dp%20jpg.png" alt="Shafqat Hussain" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
             </div>
         </div>
     </section>
@@ -84,7 +81,7 @@
                 <p class="stat-label">Projects Built</p>
             </div>
             <div class="stat-card">
-                <h3 class="stat-number">10+</h3>
+                <h3 class="stat-number">13+</h3>
                 <p class="stat-label">Core Technologies</p>
             </div>
             <div class="stat-card">
@@ -99,7 +96,7 @@
         <h2 class="section-title">About <span>Me</span></h2>
         <div class="about-container">
             <div class="about-text glass-card">
-                <p>"I am a Data Scientist and AI Developer with a background in Financial Mathematics. I specialize in Machine Learning, Generative AI, LangChain Applications, RAG Systems, NLP, Computer Vision, and Data-Driven Solutions. I enjoy building intelligent applications that solve real-world problems through AI and modern technologies."</p>
+                <p>"I am a Data Scientist and AI Developer, currently in my final year of BS Financial Mathematics at the well-renowned institute CASPAM, Bahauddin Zakariya University (BZU). I specialize in Machine Learning, Generative AI, LangChain Applications, RAG Systems, NLP, Computer Vision, and Data-Driven Solutions. I enjoy building intelligent applications that solve real-world problems through AI and quantitative mathematical strategies."</p>
             </div>
         </div>
     </section>
@@ -124,6 +121,10 @@
             <div class="skill-card glass-card"><i class="fa-solid fa-chart-simple"></i> <h3>Data Analysis</h3></div>
             <div class="skill-card glass-card"><i class="fa-solid fa-calculator"></i> <h3>Financial Mathematics</h3></div>
             <div class="skill-card glass-card"><i class="fa-solid fa-terminal"></i> <h3>Prompt Engineering</h3></div>
+            <!-- Added Productivity Suite Tools -->
+            <div class="skill-card glass-card"><i class="fa-solid fa-file-word"></i> <h3>MS Word</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-file-excel"></i> <h3>MS Excel</h3></div>
+            <div class="skill-card glass-card"><i class="fa-solid fa-file-powerpoint"></i> <h3>PowerPoint</h3></div>
         </div>
     </section>
 
@@ -149,7 +150,7 @@
                     <span>Groq API</span><span>LangChain</span><span>Python</span><span>Streamlit</span>
                 </div>
                 <div style="margin-top: 15px;">
-                    <a href="https://huggingface.co/spaces/sh1517204/AI-content-generator" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Project</a>
+                    <a href="https://huggingface.co/spaces/sh1517204/AI-content-generator" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Space</a>
                 </div>
             </div>
 
@@ -162,70 +163,85 @@
                     <span>LangChain</span><span>PyPDF</span><span>ChromaDB</span><span>FAISS</span>
                 </div>
                 <div style="margin-top: 15px;">
-                    <a href="https://huggingface.co/spaces/sh1517204/RAG_GROQ" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Project</a>
+                    <a href="https://huggingface.co/spaces/sh1517204/RAG_GROQ" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Space</a>
                 </div>
             </div>
 
-            <!-- Project 3: Stock Exchange Prediction App -->
-            <div class="project-card glass-card" data-category="ml-fin">
-                <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
-                <h3>Stock Exchange Prediction App</h3>
-                <p>A machine learning application designed to forecast stock market trends and assist in financial decision-making.</p>
+            <!-- Project 3: Scientific Calculator -->
+            <div class="project-card glass-card" data-category="ai-gen">
+                <div class="project-icon"><i class="fa-solid fa-calculator"></i></div>
+                <h3>Scientific Calculator</h3>
+                <p>An advanced calculator application hosted on Hugging Face to perform scientific computing, algebraic structures, and technical estimations smoothly.</p>
                 <div class="tech-tags">
-                    <span>Python</span><span>ML</span><span>Financial Modeling</span>
+                    <span>Python</span><span>Gradio/Streamlit</span><span>Hugging Face</span>
                 </div>
                 <div style="margin-top: 15px;">
-                    <a href="https://huggingface.co/spaces/sh1517204/Stock_Price_Prediction?logs=container" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Project</a>
+                    <a href="https://huggingface.co/spaces/sh1517204/scientific_calculator" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Space</a>
                 </div>
             </div>
 
-            <!-- Project 4 -->
+            <!-- Project 4: English to Urdu Translation Tool -->
             <div class="project-card glass-card" data-category="cv-nlp">
                 <div class="project-icon"><i class="fa-solid fa-language"></i></div>
                 <h3>English to Urdu Translation Tool</h3>
-                <p>A high-accuracy NLP-based translation system supporting multilingual communication and content localization.</p>
+                <p>A high-accuracy NLP-based translation system supporting multilingual communication, structure localization, and language transformations.</p>
                 <div class="tech-tags">
                     <span>NLP</span><span>Python</span><span>Language Models</span>
                 </div>
+                <div style="margin-top: 15px;">
+                    <a href="https://huggingface.co/spaces/sh1517204/translator" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Space</a>
+                </div>
             </div>
 
-            <!-- Project 5 -->
+            <!-- Project 5: Diabetes Prediction App -->
             <div class="project-card glass-card" data-category="ml-fin">
                 <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-                <h3>Physiological Data Prediction</h3>
-                <p>Developed predictive models using Random Forest and hyperparameter optimization techniques to improve prediction accuracy.</p>
+                <h3>Diabetes Prediction App</h3>
+                <p>Developed predictive healthcare diagnostics models using structural optimization and classification systems to monitor risk factors efficiently.</p>
                 <div class="tech-tags">
-                    <span>Scikit-Learn</span><span>Random Forest</span><span>ML</span>
+                    <span>Scikit-Learn</span><span>Machine Learning</span><span>Python</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="https://drive.google.com/file/d/1BBUBICmauF17IjZALVus2UuP48U_fDAJ/view?usp=drivesdk" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Document</a>
                 </div>
             </div>
 
-            <!-- Project 6 -->
+            <!-- Project 6: GBM-Based Comparative Study -->
             <div class="project-card glass-card" data-category="ml-fin">
                 <div class="project-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
-                <h3>GBM-Based Comparative Study</h3>
-                <p>Applied Geometric Brownian Motion techniques to analyze and compare stock price behavior and financial market dynamics.</p>
+                <h3>GBM Stock Price Dynamics Study</h3>
+                <p>Applied Geometric Brownian Motion (GBM) algorithmic frameworks to thoroughly evaluate and analyze BOP stock price actions and volatility structures.</p>
                 <div class="tech-tags">
-                    <span>Python</span><span>Financial Math</span><span>Data Analysis</span>
+                    <span>Python</span><span>Financial Math</span><span>Stochastic Modeling</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="https://drive.google.com/file/d/1o0sUeGLqUiOGeUl65St9p1Soc7Wcn9dB/view?usp=drivesdk" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Study</a>
                 </div>
             </div>
 
-            <!-- Project 7 -->
+            <!-- Project 7: Digital Banking Fraud Detection -->
             <div class="project-card glass-card" data-category="ml-fin">
                 <div class="project-icon"><i class="fa-solid fa-shield-halved"></i></div>
                 <h3>Digital Banking Fraud Detection</h3>
-                <p>Designed intelligent fraud detection models for identifying suspicious transaction patterns and reducing financial risk.</p>
+                <p>Designed intelligent fraud detection structures for digital transactions to isolate risk variables and prevent unauthorized data mutations.</p>
                 <div class="tech-tags">
-                    <span>Machine Learning</span><span>Python</span><span>Data Analytics</span>
+                    <span>Machine Learning</span><span>Python</span><span>Fraud Analytics</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="https://drive.google.com/file/d/1ya0EblhoXBMZ67yOnV0HTeskG5pgmhoZ/view?usp=drivesdk" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Document</a>
                 </div>
             </div>
 
-            <!-- Project 8 -->
+            <!-- Project 8: Object Detection App -->
             <div class="project-card glass-card" data-category="cv-nlp">
                 <div class="project-icon"><i class="fa-solid fa-camera"></i></div>
-                <h3>Object Detection App</h3>
-                <p>Built a computer vision application capable of detecting and tracking objects using OpenCV techniques.</p>
+                <h3>Object Detection via Functional Analysis</h3>
+                <p>Built an optimization-heavy computer vision structure using OpenCV models to map, localize, and segment complex structures in live streams.</p>
                 <div class="tech-tags">
-                    <span>OpenCV</span><span>Computer Vision</span><span>Python</span>
+                    <span>OpenCV</span><span>Computer Vision</span><span>Functional Analysis</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <a href="https://drive.google.com/file/d/1i7d0nJc7oSCXeRpD9rUbgnvJSyYAsvye/view?usp=drivesdk" target="_blank" class="btn btn-primary" style="padding: 8px 15px; font-size: 0.85rem;">View Document</a>
                 </div>
             </div>
         </div>
@@ -237,9 +253,10 @@
         <div class="timeline">
             <div class="timeline-item glass-card">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">Graduated</div>
+                <div class="timeline-date">Final Year Student</div>
                 <h3>BS Financial Mathematics</h3>
-                <p>A comprehensive degree blending advanced mathematics, statistical modeling, algorithmic structure, and quantitative financial evaluation strategies.</p>
+                <p><strong>CASPAM, Bahauddin Zakariya University (BZU)</strong></p>
+                <p>A comprehensive academic path integrating quantitative financial theories, deep stochastic equations, optimization algorithms, and advanced structural mathematics.</p>
             </div>
         </div>
     </section>
@@ -286,7 +303,8 @@
 
     <script src="script.js"></script>
 </body>
-    </html>
+                </html>
+    
                 
 
   
